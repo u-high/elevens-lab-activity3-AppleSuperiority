@@ -86,7 +86,7 @@ public class Shuffler {
    int a = 0;
    
    for(int k = values.length-1;k > 0; k--){
-     dub = Math.random()*k;
+     dub = Math.random()*(k+1);
      j=(int)dub;
      a=values[k];
      values[k] = values[j];
